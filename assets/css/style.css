@@ -453,6 +453,34 @@ button { font: inherit; background: none; border: none; cursor: pointer; color: 
 .footer-nav a:hover { color: var(--text); }
 .footer-copy { font-size: 0.8rem; color: var(--text-muted); margin: 12px 0 0; }
 
+/* ============ Legal pages ============ */
+.legal-page { padding-top: 160px; }
+.legal-title { margin-bottom: 40px; }
+.legal-notice {
+  background: var(--green-dim);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 18px 22px;
+  margin-bottom: 40px;
+}
+.legal-notice p { color: var(--text); font-size: 0.92rem; margin: 0; }
+.legal-page h2 {
+  font-size: 1.2rem;
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+.legal-page p { font-size: 0.96rem; }
+.legal-page ul { margin: 0 0 1em; padding-left: 1.3em; }
+.legal-page li {
+  list-style: disc;
+  color: var(--text-muted);
+  font-size: 0.96rem;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+.legal-page a { color: var(--green-soft); text-decoration: underline; text-underline-offset: 2px; }
+.legal-updated { margin-top: 48px; font-size: 0.82rem; color: var(--text-muted); }
+
 /* ============ WhatsApp floating button ============ */
 .wa-float {
   position: fixed; right: 22px; bottom: 22px; z-index: 90;
