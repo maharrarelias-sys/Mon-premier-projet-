@@ -6,8 +6,7 @@
    CONFIG — à remplacer avant mise en ligne
    ------------------------------------------------------------------------- */
 const CONFIG = {
-  // TODO: remplacer par le vrai numéro WhatsApp de l'agence (format international, sans "+" ni espaces)
-  whatsappNumber: "33600000000",
+  whatsappNumber: "33650761710",
   whatsappMessage: "Bonjour Automa, je souhaite en savoir plus sur vos automatisations IA.",
 };
 
